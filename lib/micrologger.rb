@@ -1,10 +1,11 @@
+require_relative 'micrologger/version'
+
 require 'microevent'
 require 'paint'
 
 class MicroLogger
   include MicroEvent
 
-  VERSION = "0.1.0".freeze
   DEFAULT_HANDLERS = {
     stdout: lambda{ |message, extra|
       STDOUT.puts formatter(message, extra)
