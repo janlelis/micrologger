@@ -17,6 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_dependency 'microevent', '~> 1.0'
-  gem.add_dependency 'paint', '~> 0.9'
+  gem.add_dependency 'microevent', '>= 0.9', '< 2.0'
+  gem.add_dependency 'paint', '~> 1.0'
 end
