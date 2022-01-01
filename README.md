@@ -1,4 +1,4 @@
-# MicroLogger [![[travis]](https://travis-ci.org/janlelis/micrologger.png)](https://travis-ci.org/janlelis/micrologger)
+# MicroLogger [![[version]](https://badge.fury.io/rb/microevent.svg)](https://badge.fury.io/rb/microevent)  [![[CI]](https://github.com/janlelis/micrologger/workflows/Test/badge.svg)](https://github.com/janlelis/micrologger/actions?query=workflow%3ATest)
 
 A minimal logger based on [MicroEvent](https://github.com/janlelis/microevent.rb).
 
@@ -43,4 +43,4 @@ Other ideas you could do: Send data to a remote endpoint, send emails, send to a
 
 ## J-_-L
 
-Copyright (c) 2015 [Jan Lelis](http://janlelis.com). See MIT-LICENSE for details.
+Copyright (c) 2015 [Jan Lelis](https://janlelis.com). See MIT-LICENSE for details.

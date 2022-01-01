@@ -2,6 +2,6 @@ source 'https://rubygems.org'
 
 gemspec
 
-group :development do
-  gem 'minitest'
-end
+gem "minitest"
+gem "rake"
+gem "irb"
